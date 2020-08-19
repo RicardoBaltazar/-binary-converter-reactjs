@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+
+ul {
+    display: flex;
+}
