@@ -1,0 +1,45 @@
+main .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+}
+
+main .title h1 {
+    font-size: 75px;
+    color: #dc3727;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .title p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    color: rgb(48, 47, 47);
+}
+
+main .title button {
+    background-color: #fff;
+    border: solid 1.5px #dc3727;
+    padding: 8px 25px;
+    margin: 20px;
+    color: #dc3727;
+    font-size: 16px;
+    transition: ease-in 0.2s;
+}
+
+main .title button:hover{
+    color: #fff;
+    background-color: #dc3727;
+    border-color: #fff;
+}
+
+main .images-title{
+    display: flex;
+    margin: 25px;
+}
+
+main .images-title img{
+    width: 350px;
+    max-width: 90%;
+    margin: 10px 25px;
+}

@@ -1,8 +1,9 @@
 header nav {
     display: flex;
     justify-content: space-around;
-    padding: 22px 0;
-    max-width: 100%;
+    padding: 25px 0;
+    max-width: 95%;
+    margin: auto;
 }
 
 header nav a {

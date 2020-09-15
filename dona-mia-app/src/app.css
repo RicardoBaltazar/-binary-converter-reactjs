@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
     font-family: 'roboto', sans-serif;
     color: #000;
-    transition: all ease 0.2s;
+    transition: all ease-in 0.2s;
 }
 
 a {
