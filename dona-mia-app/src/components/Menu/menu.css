@@ -1,0 +1,15 @@
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 22px 0;
+    max-width: 100%;
+}
+
+header nav a {
+    font-size: 14px;
+    color: #dc3727;
+}
+
+header nav a:hover{
+    color: #000;
+}

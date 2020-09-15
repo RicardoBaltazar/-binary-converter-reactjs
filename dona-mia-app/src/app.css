@@ -6,8 +6,11 @@
 }
 
 body {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
+    font-family: 'roboto', sans-serif;
+    color: #000;
+    transition: all ease 0.2s;
 }
 
 a {
