@@ -14,14 +14,14 @@ main .title h1 {
 main .title p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 21px;
-    color: rgb(48, 47, 47);
+    color: #302f2f;
 }
 
 main .title button {
     background-color: #fff;
     border: solid 1.5px #dc3727;
     padding: 8px 25px;
-    margin: 20px;
+    margin: 30px;
     color: #dc3727;
     font-size: 16px;
     transition: ease-in 0.2s;
@@ -41,5 +41,21 @@ main .images-title{
 main .images-title img{
     width: 350px;
     max-width: 90%;
-    margin: 10px 25px;
+    margin: 0px 25px;
+}
+
+@media(max-width: 426px){
+    main .title {
+        width: 100vw;
+    }
+
+    main .images-title{
+        flex-direction: column;
+    }
+    
+    main .images-title img{
+        margin-top: 25px;
+        width: 300px;
+        max-width: 100%;
+    }
 }
