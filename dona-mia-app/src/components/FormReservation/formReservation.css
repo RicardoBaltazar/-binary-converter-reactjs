@@ -1,0 +1,39 @@
+.section-form {
+    background-color: #dc3727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.section-form p {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.section-form form input {
+    color: #fff;
+    border: 1.5px solid #fff;
+    background-color: #dc3727;
+    padding: 10px 35px;
+    margin: 10px 10px;
+    font-size: 16px;
+}
+
+.section-form form button {
+    color: #dc3727;
+    border: 1.5px solid #fff;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 10px 50px;
+    margin: 10px 25px;
+    font-size: 16px;
+}
+
+.section-form form button:hover {
+    cursor: pointer;
+    background-color: #e0dfdf;
+
+}

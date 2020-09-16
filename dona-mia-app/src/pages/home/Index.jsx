@@ -1,11 +1,14 @@
 import React from 'react'
 import './home.css'
 
+import FormReservation from '../../components/FormReservation/Index'
+
 const IMG1 = require('../../assets/img-home-1.png')
 const IMG2 = require('../../assets/img-home-2.png')
 const IMG3 = require('../../assets/img-home-3.png')
 const IMG4 = require('../../assets/img-home-4.png')
 const IMG5 = require('../../assets/img-home-5.png')
+
 
 export default function Home() {
     return (
@@ -47,6 +50,8 @@ export default function Home() {
 
                     <img src={IMG4} alt=""/>
                 </section>
+
+                <FormReservation />
             </main>
 
         </>
