@@ -106,7 +106,35 @@ main .opening-time img {
     margin: 75px 25px;
 }
 
+/*CONTACT US*/
 
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    font-size: 22px;
+}
+
+.contact-us h2 {
+    color: #dc3727;
+    font-size: 34px;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.contact-us p {
+    margin-bottom: 25px;
+}
+
+.contact-us div {
+    display: flex;
+}
+
+.contact-us div p {
+    margin: 0px 75px;
+}
 
 
 @media(max-width: 426px){

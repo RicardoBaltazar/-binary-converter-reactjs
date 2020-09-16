@@ -52,6 +52,24 @@ export default function Home() {
                 </section>
 
                 <FormReservation />
+
+                <section className='contact-us'>
+                    <h2>Contate-nos</h2>
+                    <p>Av. Bernardino de Campos, 98 - São Paulo, SP 12345-678</p>
+                    <div>
+                        <p>​Seg - Sex: 12:00 - 22:00​ ​<br/>
+                        Sáb: 11:00 - 22:00 <br/>
+                        Dom: 11:00 - 23:00
+                        </p>
+
+                        <p>
+                        info@meusite.com <br/>
+                        (11) 3456-7890
+                        </p>
+                    </div>
+
+                    
+                </section>
             </main>
 
         </>
