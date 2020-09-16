@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 
 import FormReservation from '../../components/FormReservation/Index'
+import FormContactUs from '../../components/ContactUs/Index'
 
 const IMG1 = require('../../assets/img-home-1.png')
 const IMG2 = require('../../assets/img-home-2.png')
@@ -68,7 +69,7 @@ export default function Home() {
                         </p>
                     </div>
 
-                    
+                    <FormContactUs />
                 </section>
             </main>
 
