@@ -17,6 +17,7 @@
     color: #fff;
     border: 1.5px solid #fff;
     background-color: #dc3727;
+    width: 225px;
     padding: 10px 35px;
     margin: 10px 10px;
     font-size: 16px;
@@ -36,4 +37,15 @@
     cursor: pointer;
     background-color: #e0dfdf;
 
+}
+
+@media(max-width: 426px){
+    .section-form form input {
+        width: 90%;
+    }
+
+    .section-form form button {
+        width: 90%;
+    }
+    
 }
