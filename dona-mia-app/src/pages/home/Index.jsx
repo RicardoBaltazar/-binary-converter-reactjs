@@ -4,6 +4,7 @@ import './home.css'
 const IMG1 = require('../../assets/img-home-1.png')
 const IMG2 = require('../../assets/img-home-2.png')
 const IMG3 = require('../../assets/img-home-3.png')
+const IMG4 = require('../../assets/img-home-4.png')
 const IMG5 = require('../../assets/img-home-5.png')
 
 export default function Home() {
@@ -34,6 +35,17 @@ export default function Home() {
                             você contar a sua história aos seus clientes.</p>
                         <a href="">Leia Mais</a>
                     </div>
+                </section>
+
+                <section className='opening-time'>
+                    <div>
+                        <h2>Horário de Abertura</h2>
+                        <p>Seg - Sex: 12:00 - 22:00</p>
+                        <p>Sáb: 11:00 - 22:00</p>
+                        <p>Dom: 11:00 - 23:00</p>
+                    </div>
+
+                    <img src={IMG4} alt=""/>
                 </section>
             </main>
 
