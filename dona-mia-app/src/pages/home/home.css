@@ -12,7 +12,7 @@ main .title h1 {
 }
 
 main .title p {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Playfair Display', Times, serif;
     font-size: 21px;
     color: #302f2f;
 }
@@ -43,6 +43,45 @@ main .images-title img{
     max-width: 90%;
     margin: 0px 25px;
 }
+
+
+/*ABOUT*/
+main .about {
+    display: flex;
+    align-items: center;
+    margin: 50px;
+}
+
+main .about img{
+    width: 550px;
+    background-color: #dc3727;
+    padding: 50px;
+    margin: 24px;
+}
+
+main .about div {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+}
+
+main .about div  h2{
+    color: #dc3727;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+main .about div p {
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+main .about div a{
+    color: #dc3727;
+    font-size: 20px;
+}
+
 
 @media(max-width: 426px){
     main .title {
