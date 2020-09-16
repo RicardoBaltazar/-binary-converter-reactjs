@@ -106,6 +106,9 @@ main .opening-time img {
     margin: 75px 25px;
 }
 
+
+
+
 @media(max-width: 426px){
     main .title {
         width: 100vw;
@@ -140,5 +143,28 @@ main .opening-time img {
         display: flex;
         flex-direction: column;
         margin-left: 75px;
+    }
+
+    /*OPENING-TIME*/
+    main .opening-time{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        justify-content: center;
+    }
+
+    main .opening-time img {
+        width: 350px;
+        margin: 75px 25px;
+        order: -1;
+    }
+
+    main .opening-time div {
+        font-size: 30px;
+    }
+
+    main .opening-time div h2 {
+        font-size: 30px;
     }
 }
