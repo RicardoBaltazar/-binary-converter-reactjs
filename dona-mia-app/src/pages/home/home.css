@@ -195,4 +195,11 @@ main .opening-time img {
     main .opening-time div h2 {
         font-size: 30px;
     }
+
+    /*CONTACT US*/ 
+
+    .contact-us div {
+        display: flex;
+        flex-direction: column;
+    }
 }
