@@ -3,6 +3,7 @@ main .title {
     flex-direction: column;
     align-items: center;
     margin: 25px;
+    padding-top: 66px;
 }
 
 main .title h1 {
@@ -20,7 +21,7 @@ main .title p {
 main .title button {
     background-color: #fff;
     border: solid 1.5px #dc3727;
-    padding: 8px 25px;
+    padding: 15px 40px;
     margin: 30px;
     color: #dc3727;
     font-size: 16px;
@@ -103,7 +104,8 @@ main .opening-time div h2 {
 }
 
 main .opening-time img {
-    margin: 75px 25px;
+    margin: 75px 0px;
+    margin-left: 80px;
 }
 
 /*CONTACT US*/

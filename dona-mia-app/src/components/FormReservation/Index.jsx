@@ -6,7 +6,7 @@ export default class FormReservation extends Component {
     render() {
         return (
             <>
-                <section className='section-form'>
+                <section className='section-form' id={this.props.id}>
                     <form action="">
                         <p>Fazer uma reserva</p>
 

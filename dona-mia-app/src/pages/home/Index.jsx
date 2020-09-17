@@ -53,9 +53,9 @@ export default function Home() {
                     <img src={IMG4} alt=""/>
                 </section>
 
-                <FormReservation />
+                <FormReservation id='#reservation'/>
 
-                <section className='contact-us'>
+                <section className='contact-us' id='#contact-us'>
                     <h2>Contate-nos</h2>
                     <p>Av. Bernardino de Campos, 98 - São Paulo, SP 12345-678</p>
                     <div>
