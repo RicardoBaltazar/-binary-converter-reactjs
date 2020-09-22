@@ -55,3 +55,10 @@ main .menu div div p {
     text-align: center;
     max-width: 275px;
 }
+
+@media(max-width: 426px){
+    main .menu div {
+        display: flex;
+        flex-direction: column;
+    }
+}

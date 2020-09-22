@@ -1,6 +1,8 @@
 import React from 'react'
 import './menu.css'
 
+import NewsLetter from '../../components/NewsLetter/index'
+
 export default function PageMenu() {
     return (
         <>
@@ -231,8 +233,8 @@ export default function PageMenu() {
                     </div>
                 </section>
 
-                
             </main>
+                <NewsLetter />
         </>
     )
 }
