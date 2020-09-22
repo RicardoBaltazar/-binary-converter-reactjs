@@ -1,6 +1,8 @@
 import React from 'react'
 import './about.css'
 
+import NewsLetter from '../../components/NewsLetter/index'
+
 const IMG_ABOUT1 = require('../../assets/img-page-about1.png')
 
 export default function PageAbout() {
@@ -28,6 +30,7 @@ export default function PageAbout() {
                         Faça com que sua empresa se destaque e mostre quem você é.
                     </p>
                 </section>
+                <NewsLetter />
             </main>
 
         </>

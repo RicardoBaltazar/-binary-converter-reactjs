@@ -13,10 +13,10 @@ export default function Routes() {
             <BrowserRouter>
                 <Switch>
 
-                <Route exact path={'/'} component={Home}/>
-                <Route exact path={'/about'} component={PageAbout} />
-                <Route exact path={'/menu'} coomponent={PageMenu} />
-                <Route exact path={'/ordering'} component={PageOrdering} />
+                    <Route exact path={'/'} component={Home} />
+                    <Route exact path={'/about'} component={PageAbout} />
+                    <Route exact path={'/menu'} component={PageMenu} />
+                    <Route exact path={'/ordering'} component={PageOrdering} />
 
                 </Switch>
             </BrowserRouter>
