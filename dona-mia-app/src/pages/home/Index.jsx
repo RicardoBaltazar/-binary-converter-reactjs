@@ -19,7 +19,7 @@ export default function Home() {
                 <section className='title'>
                     <h1>DONA MIA</h1>
                     <p>Um lugar como a sua casa</p>
-                    <button>Ver o Menu</button>
+                    <button><a href="/menu">Ver o Menu</a></button>
 
                     <div className='images-title'>
                         <img src={IMG1} alt="receita" />
