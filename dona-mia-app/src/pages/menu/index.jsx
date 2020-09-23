@@ -6,7 +6,7 @@ import NewsLetter from '../../components/NewsLetter/index'
 export default function PageMenu() {
     return (
         <>
-            <main>
+            <main className='main-page-menu'>
                 <section className='menu'>
                     <h2>Menu</h2>
                     <p>Nossa comida é feita com amor</p>

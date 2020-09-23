@@ -9,7 +9,7 @@ export default function PageAbout() {
     return (
         <>
             <main>
-                <section className='about'>
+                <section className='page-about'>
                     <img src={IMG_ABOUT1} alt="imagem"/>
                     <h2>Nossa História</h2>
                     <p>Nossa família entende de massa</p>

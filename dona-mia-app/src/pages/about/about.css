@@ -1,4 +1,4 @@
-main .about {
+main .page-about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,23 +6,23 @@ main .about {
     padding-top: 66px;
 }
 
-main .about img {
+main .page-about img {
     padding: 0px;
 }
 
-main .about  h2 {
+main .page-about  h2 {
     color: #dc3727;
     font-size: 34px;
 }
 
-main .about p {
+main .page-about p {
     margin: 10px;
     font-size: 22px;
     max-width: 650px;
     text-align: center;
 }
 
-main .about hr {
+main .page-about hr {
     margin: 25px;
     border: 1px solid #dc3727;
     width: 50px;
