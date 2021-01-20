@@ -1,0 +1,33 @@
+@media(max-width:426px){
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px ;
+        align-items:baseline;
+    }
+
+    header {
+        width: 100vw;
+        padding: 25px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .header-text {
+        border: 2px solid #fff;
+        padding: 20px;
+        color: #fff;
+        font-size: 20px;
+        width: 300px;
+    }
+}
