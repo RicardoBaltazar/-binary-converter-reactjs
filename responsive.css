@@ -1,22 +1,22 @@
 @media(max-width:426px){
-    nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 25px ;
-        align-items:baseline;
-    }
 
     header {
         width: 100vw;
-        padding: 25px 10px;
+        padding: 10px 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-image: url('./images/mobile/image-hero.jpg');
     }
 
     nav {
+        display: flex;
         justify-content: space-between;
+        margin-top: -25px;
+        padding: 25px;
+        align-items:baseline;
+
     }
 
     nav ul {
@@ -25,7 +25,8 @@
 
     .header-text {
         border: 2px solid #fff;
-        padding: 20px;
+        margin-top: 50px;
+        padding: 20px 20px;
         color: #fff;
         font-size: 20px;
         width: 300px;

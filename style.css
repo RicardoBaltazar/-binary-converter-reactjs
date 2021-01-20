@@ -20,6 +20,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
 }
 
 nav {
@@ -48,11 +49,43 @@ nav ul li {
 
 .header-text {
     border: 2px solid #fff;
-
     margin-top: 100px;
     width: 650px;
     padding: 40px;
     color: #fff;
     font-size: 32px;
     font-weight: medium;
+}
+
+/*SECTION 1*/
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.section1 img {
+    max-width: 55%;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+}
+
+.text-section1{
+    padding: 50px 100px;
+    position: absolute; 
+    background-color: #fff;
+    margin-top: 150px;
+    margin-left: 500px;
+    max-width: 50%;
+}
+
+.text-section1 .title{
+    font-size: 40px;
+    color: #000;
+    color: #949494;
+}
+
+.text-section1 p {
+    color: #949494;
+    margin-top: 25px;
 }
