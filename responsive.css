@@ -31,4 +31,8 @@
         font-size: 20px;
         width: 300px;
     }
+
+    .div-images {
+        flex-wrap: wrap;
+    }
 }
