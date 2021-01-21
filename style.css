@@ -118,19 +118,20 @@ nav ul li:hover{
 }
 
 .div-images button {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     font-size: 16px;
     letter-spacing: 4px;
     font-weight: 300;
-    border: none;
+    border: solid 1px #000;
     padding: 10px 25px;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .div-images button:hover{
-    color: #a0a0a0;
+    background-color: #000;
+    color: #fff;
 }
 
 .div-imagens-top {
