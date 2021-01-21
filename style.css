@@ -44,12 +44,13 @@ nav ul li {
     padding: 0 15px;
     color: #fff;
     font-size: 14px;
+    font-weight: bold;
     cursor: pointer;
 }
 
 .header-text {
     border: 2px solid #fff;
-    margin-top: 100px;
+    margin-top: 125px;
     width: 650px;
     padding: 40px;
     color: #fff;
@@ -67,15 +68,16 @@ nav ul li {
 
 .section1 img {
     max-width: 55%;
+    margin-left: 50px;
     box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
 }
 
 .text-section1{
-    padding: 50px 100px;
+    padding: 50px 75px;
     position: absolute; 
     background-color: #fff;
     margin-top: 150px;
-    margin-left: 500px;
+    margin-left: 550px;
     max-width: 50%;
 }
 
