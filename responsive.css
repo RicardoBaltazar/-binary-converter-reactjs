@@ -20,6 +20,13 @@
 
     nav ul {
         flex-direction: column;
+        display: none;
+    }
+
+    .menu-hamburguer{
+        position: absolute;
+        top: 20%;
+        display: block;
     }
 
     .header-text {
